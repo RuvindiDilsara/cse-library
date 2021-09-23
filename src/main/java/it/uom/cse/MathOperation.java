@@ -31,4 +31,12 @@ public class MathOperation {
         return sum;
     }
 
+    public static int factorial(int n) {
+        int factorial = 1;
+        for(int i=1; i<n+1; i++){
+            factorial = factorial*i;
+        }
+        return factorial;
+    }
+
 }
